@@ -1,0 +1,14 @@
+.navbar { background: white; border-bottom: 1px solid #e2e8f0; position: sticky; top: 0; z-index: 100; }
+.navbar-container { max-width: 1200px; margin: 0 auto; padding: 0 20px; display: flex; align-items: center; gap: 20px; height: 64px; }
+.navbar-logo { font-size: 20px; font-weight: 700; color: #6366f1; }
+.navbar-search { flex: 1; display: flex; max-width: 400px; }
+.navbar-search input { flex: 1; padding: 8px 12px; border: 1px solid #e2e8f0; border-radius: 8px 0 0 8px; outline: none; font-size: 14px; }
+.navbar-search input:focus { border-color: #6366f1; }
+.navbar-search button { padding: 8px 14px; background: #6366f1; color: white; border: none; border-radius: 0 8px 8px 0; cursor: pointer; }
+.navbar-links { display: flex; align-items: center; gap: 16px; margin-left: auto; }
+.navbar-links a { font-size: 14px; font-weight: 500; color: #475569; transition: color 0.2s; }
+.navbar-links a:hover { color: #6366f1; }
+.cart-link { position: relative; }
+.cart-badge { position: absolute; top: -8px; right: -10px; background: #ef4444; color: white; border-radius: 50%; width: 18px; height: 18px; display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 700; }
+.user-menu { display: flex; align-items: center; gap: 8px; }
+.user-menu span { font-size: 14px; color: #475569; }
