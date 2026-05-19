@@ -101,9 +101,7 @@ ecommerce/
         │   └── Navbar.js
         └── styles/
             └── global.css
-```
 
----
 
 ## ⚙️ Prerequisites
 
@@ -122,9 +120,7 @@ java -version
 mvn -version
 node -version
 mysql --version
-```
 
----
 
 ## 🛠️ Setup & Installation
 
@@ -135,7 +131,7 @@ git clone https://github.com/YOUR_USERNAME/shopease-ecommerce.git
 cd shopease-ecommerce
 ```
 
----
+
 
 ### Step 2 — Database Setup
 
@@ -161,9 +157,8 @@ spring.datasource.password=YOUR_MYSQL_PASSWORD
 ```
 
 > ⚠️ Leave password blank if your MySQL has no password:
-> `spring.datasource.password=`
+> `spring.datasource.password= your password 
 
----
 
 ### Step 4 — Run the Backend
 
