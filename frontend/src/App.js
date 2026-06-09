@@ -17,7 +17,7 @@ import AdminOrders from './pages/admin/AdminOrders';
 import AdminUsers from './pages/admin/AdminUsers';
 import './styles/global.css';
 
-const PrivateRoute = ({ children }) => {
+const PrivateRoute = ({children}) => {
   const { user } = useAuth();
   return user ? children : <Navigate to="/login" />;
 };
